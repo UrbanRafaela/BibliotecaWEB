@@ -25,3 +25,4 @@ Projeto desenvolvido com Django e PostgreSQL.
 ## Autor
 
 Rafaela Urban
+Teste do CI/CD realizado com sucesso.
