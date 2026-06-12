@@ -6,7 +6,7 @@ class Livro(models.Model):
     genero = models.CharField(max_length=50)
     ano = models.IntegerField()
     quantidade = models.IntegerField()
-    capa = models.ImageField(upload_to='capas/', blank=True, null=True)
+    capa = models.URLField(blank=True, null=True)
 
     def __str__(self):
         return self.titulo
